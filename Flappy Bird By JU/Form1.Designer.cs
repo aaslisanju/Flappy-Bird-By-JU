@@ -48,7 +48,7 @@
             this.scoreText.AutoSize = true;
             this.scoreText.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreText.ForeColor = System.Drawing.Color.Black;
-            this.scoreText.Location = new System.Drawing.Point(6, 435);
+            this.scoreText.Location = new System.Drawing.Point(12, 9);
             this.scoreText.Name = "scoreText";
             this.scoreText.Size = new System.Drawing.Size(109, 36);
             this.scoreText.TabIndex = 4;
@@ -63,7 +63,7 @@
             // pipeTop
             // 
             this.pipeTop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pipeTop.BackColor = System.Drawing.Color.Gray;
+            this.pipeTop.BackColor = System.Drawing.Color.Transparent;
             this.pipeTop.Image = global::Flappy_Bird_By_JU.Properties.Resources.pipedown;
             this.pipeTop.Location = new System.Drawing.Point(410, -6);
             this.pipeTop.Name = "pipeTop";
@@ -85,7 +85,7 @@
             // pipeBottom
             // 
             this.pipeBottom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pipeBottom.BackColor = System.Drawing.Color.Gray;
+            this.pipeBottom.BackColor = System.Drawing.Color.Transparent;
             this.pipeBottom.Image = global::Flappy_Bird_By_JU.Properties.Resources.pipe;
             this.pipeBottom.Location = new System.Drawing.Point(299, 222);
             this.pipeBottom.Name = "pipeBottom";
@@ -97,7 +97,7 @@
             // flappyBird
             // 
             this.flappyBird.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.flappyBird.BackColor = System.Drawing.Color.Black;
+            this.flappyBird.BackColor = System.Drawing.Color.Transparent;
             this.flappyBird.Image = global::Flappy_Bird_By_JU.Properties.Resources.bird;
             this.flappyBird.Location = new System.Drawing.Point(98, 155);
             this.flappyBird.Name = "flappyBird";
@@ -121,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackgroundImage = global::Flappy_Bird_By_JU.Properties.Resources.background_night;
+            this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(508, 479);
             this.Controls.Add(this.flappyBird);
             this.Controls.Add(this.buttonQuite);

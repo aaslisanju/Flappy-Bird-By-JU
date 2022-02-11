@@ -85,15 +85,10 @@ namespace Flappy_Bird_By_JU
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void buttonQuite_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.LastPlayedOn = DateTime.Now;
             Properties.Settings.Default.Save();
-            this.Close();
-        }
-
-        private void buttonQuite_Click(object sender, EventArgs e)
-        {
             this.Close();
         }
     }

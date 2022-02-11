@@ -131,6 +131,8 @@ namespace Flappy_Bird_By_JU
                 this.Hide();
                 newGame.ShowDialog();
                 this.Show();
+                highScoreText.Text = string.Format("High Score is {0}", Properties.Settings.Default.highScore.ToString());
+                lastPlayedText.Text = string.Format("Last Played On: {0}", Properties.Settings.Default.LastPlayedOn.ToString());
             }
             catch (Exception ex)
             {
