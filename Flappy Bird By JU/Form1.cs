@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Flappy_Bird_By_JU
@@ -44,12 +37,7 @@ namespace Flappy_Bird_By_JU
         private void endGame()
         {
             gameTimer.Stop();
-            scoreText.Text += " Game over!!!";
-            if (score > Convert.ToInt32(Properties.Settings.Default.highScore))
-            {
-                Properties.Settings.Default.highScore = score;
-                Properties.Settings.Default.Save();
-            }
+            scoreText.Text += " Game over!!!";            
         }
 
         private void gameTimerEvent(object sender, EventArgs e)
@@ -87,8 +75,6 @@ namespace Flappy_Bird_By_JU
 
         private void buttonQuite_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.LastPlayedOn = DateTime.Now;
-            Properties.Settings.Default.Save();
             this.Close();
         }
     }

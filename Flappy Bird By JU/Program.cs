@@ -1,8 +1,4 @@
-﻿using Flappy_Bird_By_JU;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace Flappy_Bird_By_JU
@@ -17,7 +13,7 @@ namespace Flappy_Bird_By_JU
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new Selection());
         }
 
         internal static void Error(object sender, EventArgs e, Exception ex)

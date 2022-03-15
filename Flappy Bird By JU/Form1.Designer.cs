@@ -45,12 +45,12 @@
             // 
             // scoreText
             // 
-            this.scoreText.AutoSize = true;
+            this.scoreText.BackColor = System.Drawing.Color.LightSalmon;
             this.scoreText.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreText.ForeColor = System.Drawing.Color.Black;
-            this.scoreText.Location = new System.Drawing.Point(12, 9);
+            this.scoreText.Location = new System.Drawing.Point(1, 425);
             this.scoreText.Name = "scoreText";
-            this.scoreText.Size = new System.Drawing.Size(109, 36);
+            this.scoreText.Size = new System.Drawing.Size(507, 55);
             this.scoreText.TabIndex = 4;
             this.scoreText.Text = "Score: 0";
             // 
@@ -65,7 +65,7 @@
             this.pipeTop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pipeTop.BackColor = System.Drawing.Color.Transparent;
             this.pipeTop.Image = global::Flappy_Bird_By_JU.Properties.Resources.pipedown;
-            this.pipeTop.Location = new System.Drawing.Point(410, -6);
+            this.pipeTop.Location = new System.Drawing.Point(445, -6);
             this.pipeTop.Name = "pipeTop";
             this.pipeTop.Size = new System.Drawing.Size(58, 120);
             this.pipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
